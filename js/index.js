@@ -41,7 +41,7 @@ $(document).ready(function () {
                   </ul>
                   <div class="footer-box">
                   <div class="speed-data">
-                  <p class ="img-logo humidity"><img src="/img/water-drop-icon.png"></p><p class="data-heading">Humidity</p><span class="actual-data">${humidity}%</span>
+                  <p class ="img-logo humidity"><img src="img/water-drop-icon.png"></p><p class="data-heading">Humidity</p><span class="actual-data">${humidity}%</span>
                   </div>
                   <div class="box-1"><span>Last Update</span> <h3>${updatetime}</h3></div>
                   `;
