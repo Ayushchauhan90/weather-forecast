@@ -35,9 +35,9 @@ $(document).ready(function () {
                    <h1 class="temp_f">${temp_f}<sup>°</sup>F </h1>
                   </div>
                   <ul class="other-data">
-                  <li class="speed-data"><p class ="img-logo"><img src="/img/wind-img.png"></p><p class="data-heading">Wind mph</p><span class="actual-data">${wind_mph}</span></li>
-                  <li class="speed-data"><p class ="img-logo"><img src="/img/wind-img.png"></p><p class="data-heading">Wind kph</p><span class="actual-data">${wind_kph}</span></li>
-                  <li class="speed-data"><p class ="img-logo"><img src="/img/directions-svgrepo-com.png"></p><p class="data-heading">Wind dir</p><span class="actual-data">${wind_dir}</span></li>
+                  <li class="speed-data"><p class ="img-logo"><img src="img/wind-img.png"></p><p class="data-heading">Wind mph</p><span class="actual-data">${wind_mph}</span></li>
+                  <li class="speed-data"><p class ="img-logo"><img src="img/wind-img.png"></p><p class="data-heading">Wind kph</p><span class="actual-data">${wind_kph}</span></li>
+                  <li class="speed-data"><p class ="img-logo"><img src="img/directions-svgrepo-com.png"></p><p class="data-heading">Wind dir</p><span class="actual-data">${wind_dir}</span></li>
                   </ul>
                   <div class="footer-box">
                   <div class="speed-data">
@@ -78,24 +78,3 @@ $(document).ready(function () {
     location.reload(true);
   });
 });
-
-
-
-
-
-
-
-
-// var settings = {
-//   "url": "https://weatherapi-com.p.rapidapi.com/current.json?access_key=116f1754bcmsh2a307e567b1c65cp164f04jsn2fe74a2223fc&q=india",
-//   "method": "GET",
-//   "timeout": 0,
-//   "headers": {
-//     "X-RapidAPI-Key": "116f1754bcmsh2a307e567b1c65cp164f04jsn2fe74a2223fc",
-//     "X-RapidAPI-Host": "weatherapi-com.p.rapidapi.com"
-//   },
-// };
-
-// $.ajax(settings).done(function (response) {
-//   console.log(response.location);
-// });
