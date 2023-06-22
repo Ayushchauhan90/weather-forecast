@@ -112,10 +112,19 @@ body{
   text-align: center;
   margin-top: 12px;
 }
+.weather-img img:hover{
+  transform: scale(1.1);
+}
+.weather-img-data {
+  width: fit-content;
+  margin: auto;
+  border: 1px solid #e1e1e1;
+  border-radius: 7px;
+}
 .weather-img img {
   width: 97px;
   background: #4440;
-  border: 1px solid #4444441f;
+  /* border: 1px solid #4444441f; */
   border-radius: 6px;
 }
 .temprature {
@@ -135,11 +144,14 @@ body{
 .speed-data {
   text-align: center;
   border: 1px solid #e1e1e1;
-  padding: 0px 9px 10px;
   border-radius: 8px;
-  cursor: ponter;
+  width: 28%;
 }
-.speed-data:hover{
+.other-weather-data {
+  padding: 0px 9px 10px;
+  cursor: pointer;
+}
+.other-weather-data:hover{
   transform: scale(1.1);
 }
 .actual-data{
