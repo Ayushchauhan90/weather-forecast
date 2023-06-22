@@ -35,8 +35,8 @@ $(document).ready(function () {
                    <h1 class="temp_f">${temp_f}<sup>°</sup>F </h1>
                   </div>
                   <ul class="other-data">
-                  <li class="speed-data"><p class ="img-logo"><img src="img/wind-img.png"></p><p class="data-heading">Wind mph</p><span class="actual-data">${wind_mph}</span></li>
-                  <li class="speed-data"><p class ="img-logo"><img src="/img/wind-img.png"></p><p class="data-heading">Wind kph</p><span class="actual-data">${wind_kph}</span></li>
+                  <li class="speed-data"><p class ="img-logo"><img src="/weather-forecast/img/wind-img.png"></p><p class="data-heading">Wind mph</p><span class="actual-data">${wind_mph}</span></li>
+                  <li class="speed-data"><p class ="img-logo"><img src="weather-forecast/img/wind-img.png"></p><p class="data-heading">Wind kph</p><span class="actual-data">${wind_kph}</span></li>
                   <li class="speed-data"><p class ="img-logo"><img src="/img/directions-svgrepo-com.png"></p><p class="data-heading">Wind dir</p><span class="actual-data">${wind_dir}</span></li>
                   </ul>
                   <div class="footer-box">
